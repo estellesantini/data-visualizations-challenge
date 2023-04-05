@@ -11,26 +11,25 @@ The executive team has tasked you with generating all of the tables and figures 
 This assignment is broken down into the following tasks:
 
 ### Prepare the data.
-    - Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
+- Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
 
 ### Generate summary statistics.
-    - A row for each drug regimen. These regimen names should be contained in the index column.
-    - A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
+- A row for each drug regimen. These regimen names should be contained in the index column.
+- A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
 ### Create bar charts and pie charts.
-    - Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
-    - Create the first bar chart with the Pandas DataFrame.plot() method.
-    - Create the second bar chart with Matplotlib's pyplot methods.
-    - Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
-    - Create the first pie chart with the Pandas DataFrame.plot() method.
-    - Create the second pie chart with Matplotlib's pyplot methods.
+- Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
+- Create the first bar chart with the Pandas DataFrame.plot() method.
+- Create the second bar chart with Matplotlib's pyplot methods.
+- Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
+- Create the first pie chart with the Pandas DataFrame.plot() method.
+- Create the second pie chart with Matplotlib's pyplot methods.
 ### Calculate quartiles, find outliers, and create a box plot.
-    - Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
+- Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
     
 ### Create a line plot and a scatter plot.
-    - Select a mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
-    - Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
+- Select a mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+- Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
 ### Calculate correlation and regression.
-    - Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment.
-    - Plot the linear regression model on top of the previous scatter plot.
-### Analyze the Results.
+- Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment.
+- Plot the linear regression model on top of the previous scatter plot.
